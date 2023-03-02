@@ -10,3 +10,38 @@ body {
 }
 
 /* Add styles here! */
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+body {
+  background-color: hsl(0deg, 0%, 40%);
+}
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  padding: 2em;
+}
+
+.intro-chunk {
+  margin: 4em 14.5em;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  margin: 4em 15em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.indented-heading {
+  background-color: hsl(45, 100%, 50%);
+  border-bottom: 8px solid hsl(45, 100%, 40%);
+  padding: 0.5em 1.25em;
+  max-width: fit-content;
+  margin-left: -32px;
+  margin-top: 2em;
+}
